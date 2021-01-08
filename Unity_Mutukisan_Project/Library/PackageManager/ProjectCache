@@ -5,21 +5,204 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637402666655526481
-    m_Hash: 3351638836
+      ticks: 637457220614441422
+    m_Hash: 3279734323
   m_LockFileStatus:
     m_FilePath: D:/Desk/Game/Unity/GIt/Unity_Mutuki_project/Unity_Mutukisan_Project/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637402666806823531
-    m_Hash: 2414315654
+      ticks: 637457220614950071
+    m_Hash: 4190330595
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
   m_Packages:
     m_ResolvedPackages:
+    - packageId: com.unity.burst@1.3.9
+      testable: 0
+      isDirectDependency: 1
+      version: 1.3.9
+      source: 1
+      resolvedPath: D:\Desk\Game\Unity\GIt\Unity_Mutuki_project\Unity_Mutukisan_Project\Library\PackageCache\com.unity.burst@1.3.9
+      assetPath: Packages/com.unity.burst
+      name: com.unity.burst
+      displayName: Burst
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: Burst is a compiler that translates from IL/.NET bytecode to highly
+        optimized native code using LLVM.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 0.2.4-preview.5
+        - 0.2.4-preview.7
+        - 0.2.4-preview.11
+        - 0.2.4-preview.12
+        - 0.2.4-preview.13
+        - 0.2.4-preview.14
+        - 0.2.4-preview.15
+        - 0.2.4-preview.16
+        - 0.2.4-preview.17
+        - 0.2.4-preview.18
+        - 0.2.4-preview.19
+        - 0.2.4-preview.20
+        - 0.2.4-preview.21
+        - 0.2.4-preview.22
+        - 0.2.4-preview.23
+        - 0.2.4-preview.24
+        - 0.2.4-preview.25
+        - 0.2.4-preview.30
+        - 0.2.4-preview.31
+        - 0.2.4-preview.33
+        - 0.2.4-preview.34
+        - 0.2.4-preview.37
+        - 0.2.4-preview.41
+        - 0.2.4-preview.45
+        - 0.2.4-preview.48
+        - 0.2.4-preview.50
+        - 1.1.0-preview.2
+        - 1.1.0-preview.3
+        - 1.1.0-preview.4
+        - 1.1.1
+        - 1.1.2
+        - 1.1.3-preview.3
+        - 1.2.0-preview.1
+        - 1.2.0-preview.5
+        - 1.2.0-preview.6
+        - 1.2.0-preview.8
+        - 1.2.0-preview.9
+        - 1.2.0-preview.10
+        - 1.2.0-preview.11
+        - 1.2.0-preview.12
+        - 1.2.0
+        - 1.2.1
+        - 1.2.2
+        - 1.2.3
+        - 1.3.0-preview.1
+        - 1.3.0-preview.2
+        - 1.3.0-preview.3
+        - 1.3.0-preview.4
+        - 1.3.0-preview.5
+        - 1.3.0-preview.6
+        - 1.3.0-preview.7
+        - 1.3.0-preview.8
+        - 1.3.0-preview.9
+        - 1.3.0-preview.10
+        - 1.3.0-preview.11
+        - 1.3.0-preview.12
+        - 1.3.0-preview.13
+        - 1.3.0
+        - 1.3.1
+        - 1.3.2
+        - 1.3.3
+        - 1.3.4
+        - 1.3.5
+        - 1.3.6
+        - 1.3.7
+        - 1.3.8
+        - 1.3.9
+        - 1.4.0-pre.1
+        - 1.4.0-preview.1
+        - 1.4.0-preview.2
+        - 1.4.0-preview.3
+        - 1.4.0-preview.4
+        - 1.4.0-preview.5
+        - 1.4.1-pre.1
+        - 1.4.1-pre.2
+        - 1.4.1
+        - 1.4.2
+        - 1.4.3
+        - 1.4.4-preview.1
+        - 1.4.4-preview.2
+        - 1.5.0-pre.3
+        compatible:
+        - 1.1.1
+        - 1.1.2
+        - 1.1.3-preview.3
+        - 1.2.0-preview.1
+        - 1.2.0-preview.5
+        - 1.2.0-preview.6
+        - 1.2.0-preview.8
+        - 1.2.0-preview.9
+        - 1.2.0-preview.10
+        - 1.2.0-preview.11
+        - 1.2.0-preview.12
+        - 1.2.0
+        - 1.2.1
+        - 1.2.2
+        - 1.2.3
+        - 1.3.0-preview.1
+        - 1.3.0-preview.2
+        - 1.3.0-preview.3
+        - 1.3.0-preview.4
+        - 1.3.0-preview.5
+        - 1.3.0-preview.6
+        - 1.3.0-preview.7
+        - 1.3.0-preview.8
+        - 1.3.0-preview.9
+        - 1.3.0-preview.10
+        - 1.3.0-preview.11
+        - 1.3.0-preview.12
+        - 1.3.0-preview.13
+        - 1.3.0
+        - 1.3.1
+        - 1.3.2
+        - 1.3.3
+        - 1.3.4
+        - 1.3.5
+        - 1.3.6
+        - 1.3.7
+        - 1.3.8
+        - 1.3.9
+        - 1.4.0-pre.1
+        - 1.4.0-preview.1
+        - 1.4.0-preview.2
+        - 1.4.0-preview.3
+        - 1.4.0-preview.4
+        - 1.4.0-preview.5
+        - 1.4.1-pre.1
+        - 1.4.1-pre.2
+        - 1.4.1
+        - 1.4.2
+        - 1.4.3
+        - 1.4.4-preview.1
+        - 1.4.4-preview.2
+        - 1.5.0-pre.3
+        verified: 1.3.9
+      dependencies:
+      - name: com.unity.mathematics
+        version: 1.2.1
+      resolvedDependencies:
+      - name: com.unity.mathematics
+        version: 1.2.1
+      keywords: []
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637377825420000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/burst.git
+        revision: ca360974130707a3117bf683ca6741ec44d27811
+        path: 
     - packageId: com.unity.collab-proxy@1.3.9
       testable: 0
       isDirectDependency: 1
@@ -157,6 +340,7 @@ m_PackageAssets:
         - 2.0.7
         - 3.0.1
         - 3.0.2
+        - 3.0.3
         compatible:
         - 1.0.2
         - 1.0.6
@@ -178,6 +362,7 @@ m_PackageAssets:
         - 2.0.7
         - 3.0.1
         - 3.0.2
+        - 3.0.3
         verified: 1.2.1
       dependencies:
       - name: com.unity.test-framework
@@ -234,10 +419,30 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 1.0.2
+        - 1.0.3
+        - 1.0.4
+        - 1.0.9
+        - 1.0.10
+        - 1.0.11
+        - 2.0.0
+        - 2.0.1
+        - 2.0.2
         - 2.0.3
+        - 2.0.5
         compatible:
+        - 1.0.2
+        - 1.0.3
+        - 1.0.4
+        - 1.0.9
+        - 1.0.10
+        - 1.0.11
+        - 2.0.0
+        - 2.0.1
+        - 2.0.2
         - 2.0.3
-        verified: 2.0.3
+        - 2.0.5
+        verified: 2.0.5
       dependencies: []
       resolvedDependencies: []
       keywords: []
@@ -253,7 +458,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637359495930000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -373,6 +578,7 @@ m_PackageAssets:
         - 1.0.0-preview.6
         - 1.0.0-preview.7
         - 1.0.0
+        - 1.0.1
         - 1.1.0-preview.1
         - 1.1.0-preview.2
         compatible:
@@ -398,9 +604,10 @@ m_PackageAssets:
         - 1.0.0-preview.6
         - 1.0.0-preview.7
         - 1.0.0
+        - 1.0.1
         - 1.1.0-preview.1
         - 1.1.0-preview.2
-        verified: 1.0.0
+        verified: 1.0.1
       dependencies: []
       resolvedDependencies: []
       keywords:
@@ -431,6 +638,139 @@ m_PackageAssets:
         type: git
         url: git+https://github.com/Unity-Technologies/InputSystem.git
         revision: 0617549352dbfae87698b044d343b97727dd6581
+        path: 
+    - packageId: com.unity.jobs@0.7.0-preview.17
+      testable: 0
+      isDirectDependency: 1
+      version: 0.7.0-preview.17
+      source: 1
+      resolvedPath: D:\Desk\Game\Unity\GIt\Unity_Mutuki_project\Unity_Mutukisan_Project\Library\PackageCache\com.unity.jobs@0.7.0-preview.17
+      assetPath: Packages/com.unity.jobs
+      name: com.unity.jobs
+      displayName: Jobs
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: The Jobs package provides additional job types like IJobParallelForBatch,
+        IJobParallelForDefer, and IJobParallelForFilter.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 0.0.7-preview.1
+        - 0.0.7-preview.2
+        - 0.0.7-preview.3
+        - 0.0.7-preview.4
+        - 0.0.7-preview.5
+        - 0.0.7-preview.6
+        - 0.0.7-preview.7
+        - 0.0.7-preview.8
+        - 0.0.7-preview.9
+        - 0.0.7-preview.10
+        - 0.0.7-preview.11
+        - 0.0.7-preview.12
+        - 0.0.7-preview.13
+        - 0.1.0-preview
+        - 0.1.1-preview
+        - 0.2.0-preview.13
+        - 0.2.1-preview.3
+        - 0.2.2-preview.6
+        - 0.2.3-preview.9
+        - 0.2.4-preview.11
+        - 0.2.5-preview.20
+        - 0.2.6-preview.13
+        - 0.2.7-preview.11
+        - 0.2.8-preview.3
+        - 0.2.9-preview.15
+        - 0.2.10-preview.11
+        - 0.2.10-preview.12
+        - 0.2.10-preview.13
+        - 0.4.0-preview.18
+        - 0.5.0-preview.14
+        - 0.7.0-preview.17
+        compatible:
+        - 0.0.7-preview.1
+        - 0.0.7-preview.2
+        - 0.0.7-preview.3
+        - 0.0.7-preview.4
+        - 0.0.7-preview.5
+        - 0.0.7-preview.6
+        - 0.0.7-preview.7
+        - 0.0.7-preview.8
+        - 0.0.7-preview.9
+        - 0.0.7-preview.10
+        - 0.0.7-preview.11
+        - 0.0.7-preview.12
+        - 0.0.7-preview.13
+        - 0.1.0-preview
+        - 0.1.1-preview
+        - 0.2.0-preview.13
+        - 0.2.1-preview.3
+        - 0.2.2-preview.6
+        - 0.2.3-preview.9
+        - 0.2.4-preview.11
+        - 0.2.5-preview.20
+        - 0.2.6-preview.13
+        - 0.2.7-preview.11
+        - 0.2.8-preview.3
+        - 0.2.9-preview.15
+        - 0.2.10-preview.11
+        - 0.2.10-preview.12
+        - 0.2.10-preview.13
+        - 0.4.0-preview.18
+        - 0.5.0-preview.14
+        - 0.7.0-preview.17
+        verified: 
+      dependencies:
+      - name: com.unity.collections
+        version: 0.14.0-preview.16
+      - name: com.unity.mathematics
+        version: 1.2.1
+      resolvedDependencies:
+      - name: com.unity.collections
+        version: 0.14.0-preview.16
+      - name: com.unity.test-framework.performance
+        version: 2.3.1-preview
+      - name: com.unity.test-framework
+        version: 1.1.18
+      - name: com.unity.ext.nunit
+        version: 1.0.0
+      - name: com.unity.modules.imgui
+        version: 1.0.0
+      - name: com.unity.modules.jsonserialize
+        version: 1.0.0
+      - name: com.unity.nuget.newtonsoft-json
+        version: 2.0.0-preview
+      - name: com.unity.burst
+        version: 1.3.9
+      - name: com.unity.mathematics
+        version: 1.2.1
+      keywords:
+      - dots
+      - jobs
+      - unity
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637396080860000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: git+https://github.com/Unity-Technologies/dots.git
+        revision: 4cf433ea3c6dc7750e272011e25ae9d1c01009a2
         path: 
     - packageId: com.unity.test-framework@1.1.18
       testable: 0
@@ -476,9 +816,13 @@ m_PackageAssets:
         - 1.1.14
         - 1.1.16
         - 1.1.18
+        - 1.1.19
+        - 1.1.20
         compatible:
         - 1.1.18
-        verified: 1.1.18
+        - 1.1.19
+        - 1.1.20
+        verified: 1.1.20
       dependencies:
       - name: com.unity.ext.nunit
         version: 1.0.0
@@ -724,6 +1068,7 @@ m_PackageAssets:
         - 1.4.2
         - 1.4.3
         - 1.4.4
+        - 1.4.5
         - 1.5.0-pre.2
         - 1.5.0-preview.1
         - 1.5.0-preview.2
@@ -731,6 +1076,8 @@ m_PackageAssets:
         - 1.5.0-preview.4
         - 1.5.0-preview.5
         - 1.5.1-pre.1
+        - 1.5.1-pre.2
+        - 1.5.1-pre.3
         compatible:
         - 1.2.6
         - 1.2.7
@@ -766,6 +1113,7 @@ m_PackageAssets:
         - 1.4.2
         - 1.4.3
         - 1.4.4
+        - 1.4.5
         - 1.5.0-pre.2
         - 1.5.0-preview.1
         - 1.5.0-preview.2
@@ -773,6 +1121,8 @@ m_PackageAssets:
         - 1.5.0-preview.4
         - 1.5.0-preview.5
         - 1.5.1-pre.1
+        - 1.5.1-pre.2
+        - 1.5.1-pre.3
         verified: 1.3.6
       dependencies: []
       resolvedDependencies: []
@@ -2632,12 +2982,16 @@ m_PackageAssets:
         - 0.1.6-preview
         - 0.1.9-preview
         - 1.0.0
+        - 1.0.5
+        - 1.0.6
         compatible:
         - 0.1.5-preview
         - 0.1.6-preview
         - 0.1.9-preview
         - 1.0.0
-        verified: 1.0.0
+        - 1.0.5
+        - 1.0.6
+        verified: 1.0.6
       dependencies: []
       resolvedDependencies: []
       keywords:
@@ -2663,6 +3017,409 @@ m_PackageAssets:
         type: git
         url: git@gitlab.cds.internal.unity3d.com/upm-packages/core/com.unity.ext.nunit.git
         revision: c8f5044ffe6adb909f9836160b0bdaa30f2d1ec9
+        path: 
+    - packageId: com.unity.collections@0.14.0-preview.16
+      testable: 0
+      isDirectDependency: 0
+      version: 0.14.0-preview.16
+      source: 1
+      resolvedPath: D:\Desk\Game\Unity\GIt\Unity_Mutuki_project\Unity_Mutukisan_Project\Library\PackageCache\com.unity.collections@0.14.0-preview.16
+      assetPath: Packages/com.unity.collections
+      name: com.unity.collections
+      displayName: Collections
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: A C# collections library providing data structures that can be
+        used in jobs, and optimized by Burst compiler.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 0.0.9-preview.1
+        - 0.0.9-preview.2
+        - 0.0.9-preview.3
+        - 0.0.9-preview.4
+        - 0.0.9-preview.5
+        - 0.0.9-preview.6
+        - 0.0.9-preview.7
+        - 0.0.9-preview.8
+        - 0.0.9-preview.9
+        - 0.0.9-preview.10
+        - 0.0.9-preview.11
+        - 0.0.9-preview.12
+        - 0.0.9-preview.13
+        - 0.0.9-preview.14
+        - 0.0.9-preview.15
+        - 0.0.9-preview.16
+        - 0.0.9-preview.17
+        - 0.0.9-preview.18
+        - 0.0.9-preview.19
+        - 0.0.9-preview.20
+        - 0.1.0-preview
+        - 0.1.1-preview
+        - 0.2.0-preview.13
+        - 0.3.0-preview.0
+        - 0.4.0-preview.6
+        - 0.5.0-preview.9
+        - 0.5.1-preview.11
+        - 0.5.2-preview.8
+        - 0.6.0-preview.9
+        - 0.7.0-preview.2
+        - 0.7.1-preview.3
+        - 0.8.0-preview.5
+        - 0.9.0-preview.5
+        - 0.9.0-preview.6
+        - 0.11.0-preview.17
+        - 0.12.0-preview.13
+        - 0.14.0-preview.16
+        compatible:
+        - 0.0.9-preview.1
+        - 0.0.9-preview.2
+        - 0.0.9-preview.3
+        - 0.0.9-preview.4
+        - 0.0.9-preview.5
+        - 0.0.9-preview.6
+        - 0.0.9-preview.7
+        - 0.0.9-preview.8
+        - 0.0.9-preview.9
+        - 0.0.9-preview.10
+        - 0.0.9-preview.11
+        - 0.0.9-preview.12
+        - 0.0.9-preview.13
+        - 0.0.9-preview.14
+        - 0.0.9-preview.15
+        - 0.0.9-preview.16
+        - 0.0.9-preview.17
+        - 0.0.9-preview.18
+        - 0.0.9-preview.19
+        - 0.0.9-preview.20
+        - 0.1.0-preview
+        - 0.1.1-preview
+        - 0.2.0-preview.13
+        - 0.3.0-preview.0
+        - 0.4.0-preview.6
+        - 0.5.0-preview.9
+        - 0.5.1-preview.11
+        - 0.5.2-preview.8
+        - 0.6.0-preview.9
+        - 0.7.0-preview.2
+        - 0.7.1-preview.3
+        - 0.8.0-preview.5
+        - 0.9.0-preview.5
+        - 0.9.0-preview.6
+        - 0.11.0-preview.17
+        - 0.12.0-preview.13
+        - 0.14.0-preview.16
+        verified: 
+      dependencies:
+      - name: com.unity.test-framework.performance
+        version: 2.3.1-preview
+      - name: com.unity.burst
+        version: 1.3.7
+      resolvedDependencies:
+      - name: com.unity.test-framework.performance
+        version: 2.3.1-preview
+      - name: com.unity.test-framework
+        version: 1.1.18
+      - name: com.unity.ext.nunit
+        version: 1.0.0
+      - name: com.unity.modules.imgui
+        version: 1.0.0
+      - name: com.unity.modules.jsonserialize
+        version: 1.0.0
+      - name: com.unity.nuget.newtonsoft-json
+        version: 2.0.0-preview
+      - name: com.unity.burst
+        version: 1.3.9
+      - name: com.unity.mathematics
+        version: 1.2.1
+      keywords:
+      - dots
+      - collections
+      - unity
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637396081150000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: git+https://github.com/Unity-Technologies/dots.git
+        revision: 4cf433ea3c6dc7750e272011e25ae9d1c01009a2
+        path: 
+    - packageId: com.unity.mathematics@1.2.1
+      testable: 0
+      isDirectDependency: 0
+      version: 1.2.1
+      source: 1
+      resolvedPath: D:\Desk\Game\Unity\GIt\Unity_Mutuki_project\Unity_Mutukisan_Project\Library\PackageCache\com.unity.mathematics@1.2.1
+      assetPath: Packages/com.unity.mathematics
+      name: com.unity.mathematics
+      displayName: Mathematics
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: Unity's C# SIMD math library providing vector types and math functions
+        with a shader like syntax.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 0.0.12-preview.2
+        - 0.0.12-preview.5
+        - 0.0.12-preview.8
+        - 0.0.12-preview.10
+        - 0.0.12-preview.11
+        - 0.0.12-preview.13
+        - 0.0.12-preview.17
+        - 0.0.12-preview.19
+        - 0.0.12-preview.20
+        - 1.0.0-preview.1
+        - 1.0.1
+        - 1.1.0-preview.1
+        - 1.1.0
+        - 1.2.1
+        compatible:
+        - 0.0.12-preview.2
+        - 0.0.12-preview.5
+        - 0.0.12-preview.8
+        - 0.0.12-preview.10
+        - 0.0.12-preview.11
+        - 0.0.12-preview.13
+        - 0.0.12-preview.17
+        - 0.0.12-preview.19
+        - 0.0.12-preview.20
+        - 1.0.0-preview.1
+        - 1.0.1
+        - 1.1.0-preview.1
+        - 1.1.0
+        - 1.2.1
+        verified: 1.2.1
+      dependencies: []
+      resolvedDependencies: []
+      keywords:
+      - unity
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637324062630000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: git+https://github.com/Unity-Technologies/Unity.Mathematics.git
+        revision: 71412d94b7a0b0fdbb3195a5e6559bf6a761e91a
+        path: 
+    - packageId: com.unity.test-framework.performance@2.3.1-preview
+      testable: 0
+      isDirectDependency: 0
+      version: 2.3.1-preview
+      source: 1
+      resolvedPath: D:\Desk\Game\Unity\GIt\Unity_Mutuki_project\Unity_Mutukisan_Project\Library\PackageCache\com.unity.test-framework.performance@2.3.1-preview
+      assetPath: Packages/com.unity.test-framework.performance
+      name: com.unity.test-framework.performance
+      displayName: Performance testing API
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: Extension to the Unity Test framework package. Adds performance
+        testing capabilities and collects configuration metadata.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 0.1.27-preview
+        - 0.1.29-preview
+        - 0.1.31-preview
+        - 0.1.33-preview
+        - 0.1.34-preview
+        - 0.1.36-preview
+        - 0.1.37-preview
+        - 0.1.39-preview
+        - 0.1.40-preview
+        - 0.1.41-preview
+        - 0.1.42-preview
+        - 0.1.44-preview
+        - 0.1.45-preview
+        - 0.1.47-preview
+        - 0.1.48-preview
+        - 0.1.49-preview
+        - 0.1.50-preview
+        - 1.0.4-preview
+        - 1.0.6-preview
+        - 1.0.9-preview
+        - 1.1.2-preview
+        - 1.2.0-preview
+        - 1.2.1-preview
+        - 1.2.3-preview
+        - 1.2.5-preview
+        - 1.2.6-preview
+        - 1.3.0-preview
+        - 1.3.1-preview
+        - 1.3.2-preview
+        - 1.3.3-preview
+        - 2.0.1-preview
+        - 2.0.2-preview
+        - 2.0.3-preview
+        - 2.0.6-preview
+        - 2.0.7-preview
+        - 2.0.8-preview
+        - 2.0.9-preview
+        - 2.1.0-preview
+        - 2.2.0-preview
+        - 2.3.1-preview
+        compatible:
+        - 1.2.3-preview
+        - 1.2.5-preview
+        - 1.2.6-preview
+        - 1.3.0-preview
+        - 1.3.1-preview
+        - 1.3.2-preview
+        - 1.3.3-preview
+        - 2.0.1-preview
+        - 2.0.2-preview
+        - 2.0.3-preview
+        - 2.0.6-preview
+        - 2.0.7-preview
+        - 2.0.8-preview
+        - 2.0.9-preview
+        - 2.1.0-preview
+        - 2.2.0-preview
+        - 2.3.1-preview
+        verified: 1.2.3-preview
+      dependencies:
+      - name: com.unity.test-framework
+        version: 1.1.0
+      - name: com.unity.nuget.newtonsoft-json
+        version: 2.0.0-preview
+      resolvedDependencies:
+      - name: com.unity.test-framework
+        version: 1.1.18
+      - name: com.unity.ext.nunit
+        version: 1.0.0
+      - name: com.unity.modules.imgui
+        version: 1.0.0
+      - name: com.unity.modules.jsonserialize
+        version: 1.0.0
+      - name: com.unity.nuget.newtonsoft-json
+        version: 2.0.0-preview
+      keywords:
+      - performance
+      - test
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637298034630000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/com.unity.test-framework.performance.git
+        revision: f3bcc9ec6b911cc61eed160ca116d7fa33ae4b0a
+        path: 
+    - packageId: com.unity.nuget.newtonsoft-json@2.0.0-preview
+      testable: 0
+      isDirectDependency: 0
+      version: 2.0.0-preview
+      source: 1
+      resolvedPath: D:\Desk\Game\Unity\GIt\Unity_Mutuki_project\Unity_Mutukisan_Project\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0-preview
+      assetPath: Packages/com.unity.nuget.newtonsoft-json
+      name: com.unity.nuget.newtonsoft-json
+      displayName: Newtonsoft Json
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: 'Newtonsoft Json for use in Unity projects and Unity packages.
+        Currently synced to version 12.0.2.
+
+
+        This package is used for advanced
+        json serialization and deserialization. Most Unity users will be better suited
+        using the existing json tools built into Unity.
+
+        To avoid assembly
+        clashes, please use this package if you intend to use Newtonsoft Json.'
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0-preview.2
+        - 1.0.0-preview.3
+        - 1.0.0-preview.4
+        - 1.0.1-preview.1
+        - 1.1.2
+        - 2.0.0-preview
+        compatible:
+        - 1.0.0-preview.2
+        - 1.0.0-preview.3
+        - 1.0.0-preview.4
+        - 1.0.1-preview.1
+        - 1.1.2
+        - 2.0.0-preview
+        verified: 1.1.2
+      dependencies: []
+      resolvedDependencies: []
+      keywords: []
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637118653110000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: git@github.cds.internal.unity3d.com:unity/com.unity.nuget.newtonsoft-json.git
+        revision: 74ca86c283a2f63ba5b687451a0842ba924da907
         path: 
   m_LocalPackages:
     m_LocalFileStatus: []

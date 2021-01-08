@@ -26,16 +26,19 @@ public class CapsuleDraw : MonoBehaviour
     private void OnDrawGizmos()
     {
         if (_collider == null) return;
-        _height = ((_collider.height / 2.0f) - _collider.radius) * _collider.transform.localScale.y;
+        float scale = Mathf.Max(_collider.transform.localScale.x, _collider.transform.localScale.z);
+        float radius = _collider.radius * scale;
+        _height = (((_collider.height * _collider.transform.localScale.y) / 2.0f) - radius) ;
+        Debug.Log(_collider.transform.localScale.y);
         Vector3 start_pos = Vector3.zero;
         start_pos = _collider.center + _collider.transform.position + ((_height * _collider.transform.up));
         Vector3 end_pos = Vector3.zero;
 
         end_pos = _collider.center + _collider.transform.position + ((_height * (_collider.transform.up * -1.0f)));
         Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(start_pos,_collider.radius);
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(end_pos, _collider.radius);
+        Gizmos.DrawWireSphere(start_pos, radius);
+        Gizmos.color = Color.blue;
+        Gizmos.DrawWireSphere(end_pos, radius);
     }
 
 }
