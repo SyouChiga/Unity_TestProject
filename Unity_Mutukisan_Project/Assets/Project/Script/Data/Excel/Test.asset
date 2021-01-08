@@ -1,0 +1,19 @@
+﻿%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37716fcae2d971040be3a7468b3e7026, type: 3}
+  m_Name: Test
+  m_EditorClassIdentifier: 
+  brain_data_:
+  - brain_id_: 11
+    brain_name_: HPがn%以下の[対象]
+  - brain_id_: 37
+    brain_name_: 味方エネミーを攻撃した[対象]
