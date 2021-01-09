@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637457220614441422
-    m_Hash: 3279734323
+      ticks: 637457644899325672
+    m_Hash: 4292350119
   m_LockFileStatus:
     m_FilePath: D:/Desk/Game/Unity/GIt/Unity_Mutuki_project/Unity_Mutukisan_Project/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637457220614950071
-    m_Hash: 4190330595
+      ticks: 637457644899953966
+    m_Hash: 3481328853
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -771,6 +771,75 @@ m_PackageAssets:
         type: git
         url: git+https://github.com/Unity-Technologies/dots.git
         revision: 4cf433ea3c6dc7750e272011e25ae9d1c01009a2
+        path: 
+    - packageId: com.unity.performance.profile-analyzer@1.0.3
+      testable: 0
+      isDirectDependency: 1
+      version: 1.0.3
+      source: 1
+      resolvedPath: D:\Desk\Game\Unity\GIt\Unity_Mutuki_project\Unity_Mutukisan_Project\Library\PackageCache\com.unity.performance.profile-analyzer@1.0.3
+      assetPath: Packages/com.unity.performance.profile-analyzer
+      name: com.unity.performance.profile-analyzer
+      displayName: Profile Analyzer
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: "The Profile Analyzer tool supports the standard Unity Profiler.
+        You can use it to analyze multiple frames and multiple data sets of the CPU
+        data in the Profiler.\n\nMain features: \n\u25AA Multi-frame analysis of
+        a single set of Profiler CPU data \n\u25AA Comparison of two multi-frame
+        profile scans \n\n"
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 0.4.0-preview.3
+        - 0.4.0-preview.5
+        - 0.4.0-preview.6
+        - 0.5.0-preview.1
+        - 0.6.0-preview.1
+        - 0.7.0-preview.4
+        - 1.0.0
+        - 1.0.1
+        - 1.0.2
+        - 1.0.3
+        compatible:
+        - 0.4.0-preview.3
+        - 0.4.0-preview.5
+        - 0.4.0-preview.6
+        - 0.5.0-preview.1
+        - 0.6.0-preview.1
+        - 0.7.0-preview.4
+        - 1.0.0
+        - 1.0.1
+        - 1.0.2
+        - 1.0.3
+        verified: 
+      dependencies: []
+      resolvedDependencies: []
+      keywords: []
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637322510850000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/com.unity.performance.profile-analyzer.git
+        revision: 6f7b20291019e7afff5462923ffffad0c97c2081
         path: 
     - packageId: com.unity.test-framework@1.1.18
       testable: 0
@@ -3297,6 +3366,8 @@ m_PackageAssets:
         - 2.1.0-preview
         - 2.2.0-preview
         - 2.3.1-preview
+        - 2.4.1-preview
+        - 2.5.1-preview
         compatible:
         - 1.2.3-preview
         - 1.2.5-preview
@@ -3315,6 +3386,8 @@ m_PackageAssets:
         - 2.1.0-preview
         - 2.2.0-preview
         - 2.3.1-preview
+        - 2.4.1-preview
+        - 2.5.1-preview
         verified: 1.2.3-preview
       dependencies:
       - name: com.unity.test-framework
@@ -3390,6 +3463,10 @@ m_PackageAssets:
         - 1.0.1-preview.1
         - 1.1.2
         - 2.0.0-preview
+        - 2.0.0-preview.1
+        - 2.0.0-preview.2
+        - 2.0.0
+        - 2.0.1-preview.1
         compatible:
         - 1.0.0-preview.2
         - 1.0.0-preview.3
@@ -3397,6 +3474,10 @@ m_PackageAssets:
         - 1.0.1-preview.1
         - 1.1.2
         - 2.0.0-preview
+        - 2.0.0-preview.1
+        - 2.0.0-preview.2
+        - 2.0.0
+        - 2.0.1-preview.1
         verified: 1.1.2
       dependencies: []
       resolvedDependencies: []
