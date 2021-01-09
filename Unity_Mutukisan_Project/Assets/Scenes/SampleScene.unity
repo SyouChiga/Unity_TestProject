@@ -154,7 +154,7 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 2.04
+  m_Radius: 2.23
   m_Height: 6.04
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
@@ -215,7 +215,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 122169763}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.87, y: 5.923, z: 10.37}
+  m_LocalPosition: {x: -5.5, y: 5.923, z: 10.37}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -234,7 +234,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _collider: {fileID: 122169764}
-  _height: 0.98
+  _height: 0.78999996
 --- !u!114 &122169769
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -365,7 +365,7 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.5
+  m_Radius: 1.01
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
@@ -426,7 +426,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 610602030}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.46, y: 5.923, z: 14.048519}
+  m_LocalPosition: {x: -3, y: 5.923, z: 7.92}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -857,13 +857,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 818094539}
-  m_LocalRotation: {x: -0, y: -0, z: 0.45621842, w: 0.8898678}
-  m_LocalPosition: {x: -6.91, y: 5.34, z: -2.43}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.83, y: 5.34, z: -18.24}
   m_LocalScale: {x: 1.2, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 54.287}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &818094545
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -907,9 +907,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b65244198349c61468f791605de86819, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 5
+  _speed: 10
   _moveDir: {x: 0, y: 0, z: 0}
-  _moveDirInput: {x: -1, y: 1, z: 0}
+  _moveDirInput: {x: 0, y: 0, z: 0}
   _collider: {fileID: 818094540}
   save_collider: {fileID: 0}
   flip_back_: []
@@ -1397,7 +1397,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!135 &1619120505
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1468,7 +1468,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1619120503}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.12, y: 1.1699932, z: -12.72}
+  m_LocalPosition: {x: -1.1, y: 1.1699932, z: -12.72}
   m_LocalScale: {x: 30, y: 30, z: 30}
   m_Children: []
   m_Father: {fileID: 0}

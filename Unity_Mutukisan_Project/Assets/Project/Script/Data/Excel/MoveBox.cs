@@ -60,19 +60,13 @@ public class MoveBox : MonoBehaviour
         flip_save_ = new List<ColliderSave>();
     }
 
-    // Update is called once per frame
-    void FixedUpdate()
-    {
-        float moveDistance = _speed * Time.deltaTime;
-        MoveSimulation(_moveDir, moveDistance);
-    }
-
     private void Update()
     {
         MoveUpdate();
         //RotationUpdate();
         float moveDistance = _speed * Time.deltaTime;
         _moveDir = _moveDir.normalized;
+        MoveSimulation(_moveDir, moveDistance);
     }
 
     /// <summary>
@@ -200,7 +194,6 @@ public class MoveBox : MonoBehaviour
                         out pushBackDistance
                     );
 
-
                 //めり込んでいた場合
                 if (isCollision && pushBackDistance >= 0.001f)
                 {
@@ -208,8 +201,15 @@ public class MoveBox : MonoBehaviour
                     //if (pushBackDistance >= 0.0001)
                     {
                         Vector3 updatedPostion = pushBackVector * pushBackDistance;
-                        transform.position += new Vector3(updatedPostion.x, 0.0f, updatedPostion.z);
                         moveDir = Vector3.ProjectOnPlane(moveDir, -pushBackVector);
+                        transform.position += new Vector3(updatedPostion.x, 0.0f, updatedPostion.z);
+                        if (targetCollider.GetType() == typeof(MeshCollider))
+                        {
+                            i = 0;
+                            continue;
+                        }
+                        transform.position +=  new Vector3(updatedPostion.x, 0.0f, updatedPostion.z);
+                        
                         isCollisionSphere = true;
                         save_collider = targetCollider;
                     }
@@ -277,30 +277,28 @@ public class MoveBox : MonoBehaviour
 
         //if (!isCollisionSphere)
         //{
-        //    RaycastHit hitInfo;
-        //    Vector3 dir = (_collider.transform.position - save_pos).normalized;
-        //    float distance = (_collider.transform.position - save_pos).magnitude;
-        //    //押し出し処理のあと同じ半径で衝突判定をすると貫通していたため、少し小さめの半径で判定(0.99f)
-        //    if (Physics.SphereCast(prevPosition, radius * 0.99f, dir, out hitInfo, distance, CollisionLayerMask))
-        //    {
-        //        resultMoveDistance = hitInfo.distance;
-        //        //当たった位置まで座標を動かす
-        //        Vector3 pos = save_pos;
-        //        _collider.transform.position = pos;
-        //        //壁を滑らせるような動きをさせるため、次回移動方向を壁に沿った方向に変更
-        //        nextMoveDir = Vector3.ProjectOnPlane(moveDir, hitInfo.normal);
+        //RaycastHit hitInfo;
+        //Vector3 dir = (_collider.transform.position - save_pos).normalized;
+        //float distance = (_collider.transform.position - save_pos).magnitude;
+        ////押し出し処理のあと同じ半径で衝突判定をすると貫通していたため、少し小さめの半径で判定(0.99f)
+        //if (Physics.SphereCast(prevPosition, 0.99f, dir, out hitInfo, distance, CollisionLayerMask))
+        //{
+        //    resultMoveDistance = hitInfo.distance;
+        //    _collider.transform.position = hitInfo.point;
+        //    //壁を滑らせるような動きをさせるため、次回移動方向を壁に沿った方向に変更
+        //    nextMoveDir = Vector3.ProjectOnPlane(moveDir, hitInfo.normal);
 
-        //        //もともとの移動方向と逆向きに進もうとしている場合
-        //        if (nextMoveDir.sqrMagnitude > float.Epsilon && Vector3.Dot(nextMoveDir, _moveDir) < 0f)
-        //        {
-        //            //次回移動方向にもともとの移動方向を設定
-        //            nextMoveDir = _moveDir;
-        //        }
-        //        else
-        //        {
-        //            nextMoveDir = Vector3.Normalize(nextMoveDir);
-        //        }
+        //    //もともとの移動方向と逆向きに進もうとしている場合
+        //    if (nextMoveDir.sqrMagnitude > float.Epsilon && Vector3.Dot(nextMoveDir, _moveDir) < 0f)
+        //    {
+        //        //次回移動方向にもともとの移動方向を設定
+        //        nextMoveDir = _moveDir;
         //    }
+        //    else
+        //    {
+        //        nextMoveDir = Vector3.Normalize(nextMoveDir);
+        //    }
+        //}
         //}
         return resultMoveDistance;
     }
