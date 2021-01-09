@@ -41,12 +41,23 @@ public class MoveBox : MonoBehaviour
     [SerializeField]
     List<Collider> flip_back_ = new List<Collider>();
 
+    public class ColliderSave
+    {
+        public Collider colider;
+        public bool is_hit;
+        public void HitTrue() => is_hit = true;
+        public void HitFalse() => is_hit = false;
+    }
+
+    [SerializeField]
+    List<ColliderSave> flip_save_ = new List<ColliderSave>();
 
 
     // Use this for initialization
     void Start()
     {
         flip_back_ = new List<Collider>();
+        flip_save_ = new List<ColliderSave>();
     }
 
     // Update is called once per frame
@@ -137,16 +148,24 @@ public class MoveBox : MonoBehaviour
 
         foreach (var over_col in colliders)
         {
-            var find_col = flip_back_.Find(p => p == over_col);
-            if (find_col == null && over_col != _collider) flip_back_.Add(over_col);
+            if (over_col != _collider)
+            {
+                var find_col = flip_save_.Find(p => p.colider == over_col);
+                if (find_col == null)
+                {
+                    ColliderSave save = new ColliderSave();
+                    save.colider = over_col;
+                    flip_save_.Add(save);
+                }
+            }
         }
 
         bool isCollisionSphere = false;
         int cnt = 0;
-        if (flip_back_.Count > 0)
+        if (flip_save_.Count > 0)
         {
             Vector3 pushBackVectorAll = Vector3.zero;
-            for (int i = 0; i < flip_back_.Count;i++)
+            for (int i = 0; i < flip_save_.Count;i++)
             {
                 cnt++;
                 if (cnt >= 100)
@@ -158,7 +177,7 @@ public class MoveBox : MonoBehaviour
         Application.Quit ();
 #endif
                 }
-                Collider targetCollider = flip_back_[i];
+                Collider targetCollider = flip_save_[i].colider;
                 if (_collider == targetCollider)
                 {
                     continue;
@@ -197,16 +216,16 @@ public class MoveBox : MonoBehaviour
 
                 }
 
-                foreach(var obj_col in flip_back_)
+                foreach(var obj_col in flip_save_)
                 {
 
                     isCollision = Physics.ComputePenetration(
                                         _collider,
                                         _collider.transform.position,
                                         _collider.transform.rotation,
-                                        obj_col,
-                                        obj_col.transform.position,
-                                        obj_col.transform.rotation,
+                                        obj_col.colider,
+                                        obj_col.colider.transform.position,
+                                        obj_col.colider.transform.rotation,
                                         out pushBackVector,
                                         out pushBackDistance
                                     );
@@ -219,7 +238,7 @@ public class MoveBox : MonoBehaviour
                         {
                             Vector3 updatedPostion = pushBackVector * pushBackDistance;
                             transform.position += new Vector3(updatedPostion.x, 0.0f, updatedPostion.z);
-
+                            if(moveDir.magnitude >= 0.001f)obj_col.HitTrue();
                             isCollisionSphere = true;
                             continue;
                         }
@@ -231,6 +250,28 @@ public class MoveBox : MonoBehaviour
 
             }
 
+        }
+
+        bool check = false;
+        int chack_count = 0;
+        foreach (var save in flip_save_)
+        {
+            if(save.is_hit == true)
+            {
+                chack_count++;
+            }
+        }
+        if(chack_count >= flip_save_.Count && flip_save_.Count > 0)
+        {
+            check = true;
+        }
+        if(check == true)
+        {
+            _collider.transform.position = save_pos;
+        }
+        foreach (var save in flip_save_)
+        {
+            save.HitFalse();
         }
 
 
